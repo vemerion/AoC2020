@@ -5,3 +5,7 @@
 *.input
 *.output
 *.out
+
+# Not a chance
+day19/
+day20/
