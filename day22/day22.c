@@ -100,7 +100,7 @@ static list_t *copy(list_t *l, int count)
     add_last(&c, l->value);
     l = l->next;
     count--;
-  } while (l != h || count == 0);
+  } while (l != h && count != 0);
   return c;
 }
 
